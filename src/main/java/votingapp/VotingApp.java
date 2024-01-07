@@ -10,7 +10,7 @@ public class VotingApp {
     private VotingApp() {
     }
 
-    public static void main(String[] args) { //TODO: gitlab i jarka?
+    public static void main(String[] args) {
         String command = "";
         ExecuteCommandService executeCommandService = new ExecuteCommandService(scanner);
         while (!"exit".equals(command)) {

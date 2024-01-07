@@ -17,7 +17,7 @@ public class ExecuteCommandService {
         this.scanner = scanner;
     }
 
-    void executeCommand(String command) {  //TODO: łańcuchy ifów na switche/obiektowe switche?
+    void executeCommand(String command) {
         if ("vote".equals(command)) {
             vote();
         } else if ("display".equals(command)) {
